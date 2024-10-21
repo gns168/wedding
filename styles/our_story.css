@@ -11,7 +11,7 @@
     box-sizing: border-box;
   }
 
-  .ns {
+  .njp {
     font-family: "Noto Serif JP", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -19,7 +19,7 @@
   }
   
   
-  .nss {
+  .njps {
     font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -32,6 +32,26 @@
     font-weight: 400;
     font-style: normal;
   }
+  
+  
+  .zkg {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .zmg {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ys {
+    font-family: "Yuji Syuku", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
   @media screen and (max-width: 600px) {
     .column {
