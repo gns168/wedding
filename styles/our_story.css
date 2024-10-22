@@ -5,8 +5,8 @@
     font-weight: 400;
     font-style: normal;
 
-    color:hsla(0, 0%, 96%, 0.622);
-    background-color: rgb(95, 73, 91);
+    color:rgb(224, 172, 216);
+
     
   }
 
@@ -84,7 +84,6 @@
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
-    background-image: url("/images/_MG_8000.jpg");
     object-fit: contain;
     position: sticky;
     top: 0;
@@ -119,13 +118,13 @@
   .header-right {
     float: right;
     
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  
   }
 
   .logo {
 
     
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  
     border-radius: 25px;
   
 
