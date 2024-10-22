@@ -107,24 +107,27 @@
   }
   
   .header a:hover {
-    background-color: #ddd;
+    background-color: #6b6b6b;
     color: rgb(224, 172, 216);
   }
   
   .header a.active {
     background-color: dodgerblue;
-    color: white;
+    color: rgb(104, 104, 104);
   }
   
   .header-right {
     float: right;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   }
 
   .logo {
 
-    background-color: #717171;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     border-radius: 25px;
-    opacity: .8;
+  
 
   }
 

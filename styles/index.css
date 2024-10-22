@@ -90,6 +90,7 @@ body, html {
   width: 40%;
   padding: 10px;
   text-align: center;
+  border-radius: 25px;
 
 
 }
@@ -97,9 +98,11 @@ body, html {
 
 .logo {
 
-  background-color: #717171;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+
   border-radius: 25px;
-  opacity: .8;
+
 
 }
 
@@ -154,10 +157,11 @@ body, html {
   text-align: center;
   color:  rgb(224, 172, 216);
   background-color: rgba(0,0,0, 0.4); 
-
+  border-radius: 25px;
+  border: 3px solid rgb(224, 172, 216);
 
   position: relative;
-  bottom: -300px;
+  bottom: -200px;
 }
 
 /* 4.0 Navigation */
@@ -189,7 +193,7 @@ body, html {
 }
 
 .header a:hover {
-  background-color: #ddd;
+  background-color: #878686;
   color: rgb(224, 172, 216);
 }
 
@@ -200,4 +204,6 @@ body, html {
 
 .header-right {
   float: right;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
