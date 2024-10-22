@@ -73,6 +73,7 @@
     
     .header-right {
       float: none;
+      
     }
    
     .prev, .next,.text {font-size: 11px}
@@ -117,6 +118,7 @@
   
   .header-right {
     float: right;
+    text-shadow: 5px 5px 10px rgb(190, 164, 164);
     
   
   }
@@ -126,6 +128,7 @@
     
   
     border-radius: 25px;
+    text-shadow: 5px 5px 10px rgb(190, 164, 164);
   
 
   }
@@ -152,6 +155,7 @@
     white-space: nowrap;
     position: fixed;
     bottom: 0;
+    
   }
   
   div.scrollmenu a {
