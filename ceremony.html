@@ -17,9 +17,9 @@
   <div class="header">
     <a href="https://home.sato-chiu.com" class="logo">Ceremony</a>
     <div class="header-right">
-      <a href="/weddingparty.html">&laquo;</a>
+      <a href="/weddingparty.html">&#x25C0;</a>
       <a href="/index.html">Home</a>
-      <a href="/seating.html">&raquo; </a>
+      <a href="/seating.html">&#x25B6; </a>
     </div>
   </div>
 
@@ -64,29 +64,7 @@
       let slideIndex = 1;
       showSlides(slideIndex);
       
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-      
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-      
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-      }
+
       </script>
 
     <p>Wow, start of wonderful day ... even if we had to get up at 5am to prepare.  We had a simple civil ceremony at city hall and were so happy to see so many of our family and friends witness our exchange of vows.</p>
