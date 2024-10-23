@@ -6,6 +6,8 @@
     font-style: normal;
 
     color:rgb(224, 172, 216);
+    text-shadow: 5px 5px 10px rgb(190, 164, 164);
+
 
     
   }
@@ -224,7 +226,7 @@
   
   /* 3.0 slidesow */
   .mySlides {display: none}
-  img {vertical-align: middle;}
+  img {vertical-align: middle;   box-shadow: 5px 5px 10px rgb(190, 164, 164);}
 
   /* Slideshow container */
 .slideshow-container {
@@ -342,6 +344,8 @@
   vertical-align: middle;
   width: 100%;
   border-radius: 25px;
+  box-shadow: 5px 5px 10px rgb(190, 164, 164);
+
   
 }
 
