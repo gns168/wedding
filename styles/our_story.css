@@ -84,7 +84,7 @@
   /* 1.0  header and logo */
 
   .card {
-    transform: translate(0%, 100%);
+    transform: translate(0%, 50%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     padding: 16px;
     text-align: center;
@@ -95,7 +95,7 @@
     position: relative;
     margin-left: auto; 
     margin-right: auto;
-    width: 50%;
+    width: 60%;
     margin-bottom: 100px
   }
 
